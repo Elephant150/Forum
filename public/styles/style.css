@@ -1,0 +1,132 @@
+body{
+    background-color: ghostwhite;
+    background-image: url('/public/images/background-bg.jpg');
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    font-family: Cantarell;
+}
+.form{
+    padding-top: 70px;
+}
+u{
+    color: #ffffff;
+}
+label{
+    color: #ffffff;
+}
+.date{
+    color: #ffffff;
+    font-size: 14px;
+}
+.username{
+    color: #ffffff;
+    font-size: 18px;
+}
+.comment{
+    color: #ffffff;
+    margin-left: 10px;
+}
+.empty{
+    color: #ffffff;
+    padding-left: 40%;
+    padding-top: 16%;
+}
+.blockMessage{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #111111;
+    border-radius: 5px;
+    height:300px;
+    overflow : scroll;
+    overflow-x: hidden;
+    width:750px;
+}
+.copyrightFooter{
+    color: #ffffff;
+}
+ul.hr {
+    margin: 0;
+    padding: 4px;
+}
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+@media screen and (max-width: 600px) {
+    .blockMessage {
+        height: 200px;
+        width: 100%;
+    }
+
+    .empty {
+        padding-left: 35%;
+        padding-top: 20%;
+        color: #ffffff;
+    }
+
+    .date{
+        color: #ffffff;
+        font-size: 39px;
+    }
+    .username{
+        color: #ffffff;
+        font-size: 13px;
+    }
+    .comment{
+        color: #ffffff;
+        margin-left: 10px;
+    }
+
+    form button{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .blockMessage {
+        height: 200px;
+        width: 100%;
+    }
+
+    .empty {
+        padding-left: 35%;
+        padding-top: 20%;
+        color: #ffffff;
+    }
+
+    .date{
+        color: #ffffff;
+        font-size: 14px;
+    }
+    .username{
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .comment{
+        color: #ffffff;
+        margin-left: 10px;
+    }
+
+    form button{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .blockMessage {
+        height: 200px;
+        width: 100%;
+    }
+
+    .empty {
+        padding-left: 35%;
+        padding-top: 20%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .empty {
+        padding-left: 23%;
+        padding-top: 30%;
+    }
+
+}
